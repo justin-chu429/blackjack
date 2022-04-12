@@ -2,26 +2,6 @@ from deck import Deck
 from hand import Hand
 from gameplay import gameplay
 
-# deck = Deck(1)
-# deck.create_deck()
-# deck.shuffle_deck()
-#
-# i = 0
-# for card in deck.all_cards:
-#     print(card.get_value() + ' ' + card.get_suit())
-#     i += 1
-#     if i == 4:
-#         break
-#
-# my_hand = Hand(False)
-# my_hand.add_card(deck.all_cards[0])
-# my_hand.add_card(deck.all_cards[1])
-# my_hand.add_card(deck.all_cards[2])
-#
-#
-# my_hand.calc_hand()
-#
-# print(my_hand.count)
 
 print("Welcome! How many decks would you like to play with?")
 #requested_decks = input("Number of decks: ")
@@ -34,8 +14,6 @@ try:
     print(" ")
     deck.create_deck()
     deck.shuffle_deck()
-
-    deck.print_deck(8)
 
     player_hand_1 = Hand(False)
     #player_hand_2 = Hand(False)
